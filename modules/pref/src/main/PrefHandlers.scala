@@ -48,6 +48,7 @@ private object PrefHandlers {
         zen = r.getD("zen", Pref.default.zen),
         rookCastle = r.getD("rookCastle", Pref.default.rookCastle),
         pieceNotation = r.getD("pieceNotation", Pref.default.pieceNotation),
+        spectatorWakeLock = r.getD("spectatorWakeLock", Pref.default.spectatorWakeLock),
         resizeHandle = r.getD("resizeHandle", Pref.default.resizeHandle),
         moveEvent = r.getD("moveEvent", Pref.default.moveEvent),
         tags = r.getD("tags", Pref.default.tags)
