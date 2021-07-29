@@ -28,7 +28,8 @@ object PrefForm {
         "pieceNotation" -> optional(booleanNumber),
         "zen"           -> optional(booleanNumber),
         "resizeHandle"  -> optional(checkedNumber(Pref.ResizeHandle.choices)),
-        "blindfold"     -> checkedNumber(Pref.Blindfold.choices)
+        "blindfold"     -> checkedNumber(Pref.Blindfold.choices),
+        "spectatorWakeLock" -> optional(booleanNumber)
       )(DisplayData.apply)(DisplayData.unapply),
       "behavior" -> mapping(
         "moveEvent"     -> optional(numberIn(Set(0, 1, 2))),
