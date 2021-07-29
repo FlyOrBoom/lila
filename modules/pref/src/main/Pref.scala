@@ -39,6 +39,7 @@ case class Pref(
     rookCastle: Int,
     moveEvent: Int,
     pieceNotation: Int,
+    spectatorWakeLock: Int,
     resizeHandle: Int,
     tags: Map[String, String] = Map.empty
 ) {
