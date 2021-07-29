@@ -67,7 +67,8 @@ object PrefForm {
       pieceNotation: Option[Int],
       zen: Option[Int],
       resizeHandle: Option[Int],
-      blindfold: Int
+      blindfold: Int,
+      spectatorWakeLock: Int
   )
 
   case class BehaviorData(
@@ -131,7 +132,8 @@ object PrefForm {
         resizeHandle = display.resizeHandle | pref.resizeHandle,
         rookCastle = behavior.rookCastle | pref.rookCastle,
         pieceNotation = display.pieceNotation | pref.pieceNotation,
-        moveEvent = behavior.moveEvent | pref.moveEvent
+        moveEvent = behavior.moveEvent | pref.moveEvent,
+        spectatorWakeLock = display.spectatorWakeLock | pref.spectatorWakeLock
       )
   }
 
@@ -148,7 +150,8 @@ object PrefForm {
           blindfold = pref.blindfold,
           zen = pref.zen.some,
           resizeHandle = pref.resizeHandle.some,
-          pieceNotation = pref.pieceNotation.some
+          pieceNotation = pref.pieceNotation.some,
+          spectatorWakeLock = pref.spectatorWakeLock.some
         ),
         behavior = BehaviorData(
           moveEvent = pref.moveEvent.some,
