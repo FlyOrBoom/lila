@@ -5,7 +5,6 @@ lichess.load.then(() => {
     ['behavior', 'arrowSnap', 'arrow.snap', 1],
     ['behavior', 'courtesy', 'courtesy', 0],
     ['behavior', 'scrollMoves', 'scrollMoves', 1],
-    ['behavior', 'spectatorWakeLock', 'spectatorWakeLock', 0],
   ];
 
   $('.security table form').on('submit', function (this: HTMLFormElement) {
