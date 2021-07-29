@@ -1624,7 +1624,7 @@ val `snapArrowsToValidMoves` = new I18nKey("preferences:snapArrowsToValidMoves")
 val `sayGgWpAfterLosingOrDrawing` = new I18nKey("preferences:sayGgWpAfterLosingOrDrawing")
 val `yourPreferencesHaveBeenSaved` = new I18nKey("preferences:yourPreferencesHaveBeenSaved")
 val `scrollOnTheBoardToReplayMoves` = new I18nKey("preferences:scrollOnTheBoardToReplayMoves")
-val `blockSleepWhenSpectating` = new I18nKey("preferences:blockSleepWhenSpectating")
+val `wakeLock` = new I18nKey("preferences:wakeLock")
 }
 
 object team {
