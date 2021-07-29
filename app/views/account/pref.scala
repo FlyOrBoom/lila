@@ -86,6 +86,10 @@ object pref {
             setting(
               blindfoldChess(),
               radios(form("display.blindfold"), translatedBlindfoldChoices)
+            ),
+            setting(
+              spectatorWakeLock(),
+              radios(form("display.spectatorWakeLock"), translateSpectatorWakeLock)
             )
           ),
           categFieldset(PrefCateg.ChessClock, categ)(
