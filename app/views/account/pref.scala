@@ -89,7 +89,7 @@ object pref {
             ),
             setting(
               spectatorWakeLock(),
-              radios(form("display.spectatorWakeLock"), translateSpectatorWakeLock)
+              radios(form("display.spectatorWakeLock"), booleanChoices)
             )
           ),
           categFieldset(PrefCateg.ChessClock, categ)(
