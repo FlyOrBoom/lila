@@ -44,7 +44,8 @@ object FormCompatLayer {
           "coords",
           "replay",
           "pieceNotation",
-          "blindfold"
+          "blindfold",
+          "spectatorWakeLock"
         )
       )
 
